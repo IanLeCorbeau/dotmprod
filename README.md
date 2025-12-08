@@ -17,4 +17,5 @@ Minimal xfce:
     xfce4-settings xfce4-notifyd xfdesktop4 xfce4-whiskermenu-plugin \
     xfce4-appfinder xfce4-terminal xfce4-taskmanager xfce4-genmon-plugin \
     xcfe4-clipman-plugin xfce4-screenshooter thunar mousepad mate-polkit \
-    volumeicon-alsa ristretto thunar-archive-plugin
+    volumeicon-alsa ristretto thunar-archive-plugin vim arc-theme \
+    papirus-icon-theme
