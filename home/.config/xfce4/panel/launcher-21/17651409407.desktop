@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Reaper
+Comment=
+Exec=reaper
+Icon=cockos-reaper
+Path=
+Terminal=false
+StartupNotify=false

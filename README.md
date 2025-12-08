@@ -12,7 +12,7 @@ owned by root*
 Base programs:
 
     # apt install xserver-xorg-core xinit x11-xserver-utils xdg-utils \
-    xdg-user-dirs alsa utils doas ufw vim git
+    xdg-user-dirs alsa-utils doas ufw vim git
 
 Minimal xfce:
 

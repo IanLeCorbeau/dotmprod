@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=qjackctl
+Comment=
+Exec=/usr/bin/qjackctl
+Icon=qjackctl
+Path=
+Terminal=false
+StartupNotify=false

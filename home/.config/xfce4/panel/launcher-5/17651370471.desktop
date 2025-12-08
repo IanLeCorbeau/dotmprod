@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=xfce4-session-logout
+Icon=/usr/share/icons/Papirus-Dark/16x16/actions/system-log-out.svg
+StartupNotify=false
+Terminal=false
+Categories=System;X-XFCE;X-Xfce-Toplevel;
+Keywords=logout;exit;quit;shutdown;
+OnlyShowIn=XFCE;
+Name[en_CA]=Log Out
+Name=Log Out
+Comment[en_CA]=Log out of the Xfce Desktop
+Comment=Log out of the Xfce Desktop
+X-XFCE-Source=file:///usr/share/applications/xfce4-session-logout.desktop
+Path=

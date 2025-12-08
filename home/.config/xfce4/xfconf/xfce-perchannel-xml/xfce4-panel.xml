@@ -1,0 +1,166 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="border-width" type="uint" value="0"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="length" type="double" value="100"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="23"/>
+        <value type="int" value="19"/>
+        <value type="int" value="18"/>
+        <value type="int" value="27"/>
+        <value type="int" value="16"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="1"/>
+        <value type="int" value="13"/>
+        <value type="int" value="12"/>
+        <value type="int" value="20"/>
+        <value type="int" value="4"/>
+      </property>
+      <property name="position" type="string" value="p=8;x=960;y=1065"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="28"/>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="length" type="double" value="100"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="17"/>
+        <value type="int" value="11"/>
+        <value type="int" value="15"/>
+        <value type="int" value="14"/>
+        <value type="int" value="7"/>
+        <value type="int" value="6"/>
+        <value type="int" value="8"/>
+        <value type="int" value="5"/>
+        <value type="int" value="10"/>
+        <value type="int" value="9"/>
+      </property>
+      <property name="position" type="string" value="p=6;x=96;y=25"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="31"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-10" type="string" value="separator">
+      <property name="style" type="uint" value="2"/>
+    </property>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-15" type="string" value="clock">
+      <property name="digital-date-font" type="string" value="Sans Bold 12"/>
+      <property name="digital-date-format" type="string" value="%Y-%m-%d  %H:%M"/>
+      <property name="digital-layout" type="uint" value="2"/>
+    </property>
+    <property name="plugin-16" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17651396215.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-17" type="string" value="whiskermenu">
+      <property name="button-icon" type="string" value="/usr/share/icons/Papirus-Dark/16x16/actions/fm-compact.svg"/>
+      <property name="recent" type="array">
+        <value type="string" value="org.xfce.PanelProfiles.desktop"/>
+        <value type="string" value="xfce-settings-manager.desktop"/>
+        <value type="string" value="xfce4-settings-editor.desktop"/>
+        <value type="string" value="xfce4-appfinder.desktop"/>
+        <value type="string" value="xfce-wm-settings.desktop"/>
+        <value type="string" value="xfce4-taskmanager.desktop"/>
+        <value type="string" value="xfce-session-settings.desktop"/>
+        <value type="string" value="xfce-ui-settings.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-18" type="string" value="launcher">
+      <property name="arrow-position" type="uint" value="0"/>
+      <property name="items" type="array">
+        <value type="string" value="17650680461.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-19" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="2"/>
+    </property>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="flat-buttons" type="bool" value="true"/>
+      <property name="grouping" type="uint" value="1"/>
+      <property name="show-handle" type="bool" value="true"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="show-tooltips" type="bool" value="false"/>
+    </property>
+    <property name="plugin-23" type="string" value="showdesktop">
+      <property name="show-on-hover" type="bool" value="false"/>
+    </property>
+    <property name="plugin-27" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17651411118.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="miniature-view" type="bool" value="true"/>
+      <property name="rows" type="uint" value="1"/>
+      <property name="wrap-workspaces" type="bool" value="false"/>
+    </property>
+    <property name="plugin-5" type="string" value="launcher">
+      <property name="arrow-position" type="uint" value="2"/>
+      <property name="disable-tooltips" type="bool" value="false"/>
+      <property name="items" type="array">
+        <value type="string" value="17651370471.desktop"/>
+        <value type="string" value="17651385923.desktop"/>
+      </property>
+      <property name="move-first" type="bool" value="false"/>
+      <property name="show-label" type="bool" value="false"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="volumeicon"/>
+      </property>
+    </property>
+    <property name="plugin-7" type="string" value="genmon"/>
+    <property name="plugin-8" type="string" value="separator">
+      <property name="style" type="uint" value="2"/>
+    </property>
+    <property name="plugin-9" type="string" value="notification-plugin"/>
+    <property name="plugin-1" type="string" value="xfce4-clipman-plugin"/>
+    <property name="plugin-12" type="string" value="xfce4-notes-plugin"/>
+    <property name="notes" type="empty">
+      <property name="global" type="empty">
+        <property name="version" type="string" value="1.11.1"/>
+        <property name="background-color" type="string" value="GTK+"/>
+        <property name="skip-taskbar-hint" type="bool" value="true"/>
+      </property>
+      <property name="new-window" type="empty">
+        <property name="width" type="int" value="270"/>
+        <property name="height" type="int" value="337"/>
+        <property name="sticky" type="bool" value="true"/>
+      </property>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-20" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+  </property>
+</channel>

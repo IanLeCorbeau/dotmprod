@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Shutdown
+Comment=
+Exec=xfce4-session-logout --halt
+Icon=/usr/share/icons/Papirus-Dark/16x16/actions/system-shutdown.svg
+Path=
+Terminal=false
+StartupNotify=false

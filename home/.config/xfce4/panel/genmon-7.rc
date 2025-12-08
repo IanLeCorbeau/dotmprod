@@ -1,0 +1,6 @@
+Command=/home/i/.local/bin/net.sh
+UseLabel=0
+Text=net:\ 
+UpdatePeriod=15000
+Font=Sans 10
+
