@@ -30,7 +30,8 @@ Install [Reaper](https://www.reaper.fm/download.php)
 
 Install qjackctl
 
-    # apt install qjackctl
+    # apt install --no-install-recommends qjackctl qt6-gtk-platformtheme qt6-svg-plugins
+    # apt install jack-example-tools
 
 Install wine-staging 9.21 (the last version reported to work flawlessly with yabridge):
 
