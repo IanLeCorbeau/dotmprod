@@ -33,10 +33,20 @@ Install qjackctl
     # apt install --no-install-recommends qjackctl qt6-gtk-platformtheme qt6-svg-plugins
     # apt install jack-example-tools
 
-Install wine-staging 9.21 (the last version reported to work flawlessly with yabridge):
+Install wine-staging 9.21 (the last version reported to work flawlessly with yabridge).
+
+**Outright installing version 9.21 gave me some dependency errors, and the solution is to
+install the latest version, whatever that is, and then downgrade.**
 
     # dpkg --add-architecture i386
-    # apt install --install-recommends winehq-staging=9.21~trixie-1
-    # apt-mark hold wine-staging wine-staging-amd64 wine-staging-i386 winehq-staging
+    # apt install --install-recommends winehq-staging
+    # apt install winehq-staging=9.21~trixie-1 wine-staging=9.21~trixie-1 wine-staging-amd64=9.21~trixie-1 wine-staging-i386=9.21~trixie-1
+    # apt-mark hold winehq-staging wine-staging wine-staging-amd64 wine-staging-i386
+
+Ensure the `contrib` repo is enabled then:
+
     $ winetricks dxvk
 
+Install yabridge and VSTs.
+
+Profit.
