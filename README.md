@@ -45,6 +45,7 @@ install the latest version, whatever that is, and then downgrade.**
 
 Ensure the `contrib` repo is enabled then:
 
+    # apt install winetricks
     $ winetricks dxvk
 
 Install yabridge and VSTs.
