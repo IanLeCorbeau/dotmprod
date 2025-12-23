@@ -1,0 +1,7 @@
+[user]
+pinned=xfce4-terminal;thunar;reaper;org.rncbc.qjackctl;brave-browser;xfce4-taskmanager;
+inactiveIndicatorStyle=4
+indicatorOrientation=1
+indicatorStyle=0
+indicatorColor=rgb(82,148,226)
+forceIconSize=true

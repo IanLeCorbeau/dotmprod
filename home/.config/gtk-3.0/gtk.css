@@ -1,0 +1,7 @@
+.xfce4-panel.panel #systemload-2 progressbar.vertical trough {
+	min-width: 15px;
+}
+
+.xfce4-panel.panel #systemload-2 progressbar.vertical progress {
+	min-width: 15px;
+}

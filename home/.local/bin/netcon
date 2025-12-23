@@ -1,0 +1,6 @@
+#!/bin/sh
+
+case "$1" in
+	-u)	/usr/bin/doas /usr/sbin/ifup enp2s0 && notify-send "Network Connected" ;;
+	-d)	/usr/bin/doas /usr/sbin/ifdown enp2s0 && notify-send "Network Disconnected" ;;
+esac

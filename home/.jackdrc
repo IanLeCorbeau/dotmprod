@@ -1,0 +1,1 @@
+/bin/jackd -dalsa -dhw:CODEC,0 -r48000 -p512 -n3

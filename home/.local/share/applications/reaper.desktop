@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=REAPER
+Comment=Digital Audio Workstation
+Exec=/home/ian/.local/share/REAPER/reaper
+Icon=cockos-reaper
+Type=Application
+Categories=Audio
